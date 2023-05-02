@@ -2,7 +2,7 @@ services:
   - type: web
     name: divine-darling-twinflame-reading
     env: static
-    buildCommand: yarn && yarn build
+    buildCommand: yarn install && yarn build
     staticPublishPath: build
     github:
       repo: aliniluca/SoulmateReact
