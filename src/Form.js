@@ -19,3 +19,5 @@ const handleSubmit = async (e) => {
     console.error('Error sending data to the backend:', error);
   }
 };
+
+export default Form;
