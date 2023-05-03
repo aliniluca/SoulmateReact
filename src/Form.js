@@ -73,3 +73,11 @@ const Form = () => {
           construed or substituted as psychological counseling or any other type of
           therapy or medical advice. I will at all times exercise my best
           professional efforts, skills, and care. However, I cannot guarantee the
+outcome of reading efforts and/or recommendations on my website and my comments about the outcome are expressions of opinion only. I cannot make any guarantees other than to deliver the services purchased as described. All my sketches and readings are intended for entertainment purposes only and may not be unique.
+</p>
+</div>
+</div>
+);
+};
+
+export default Form;
