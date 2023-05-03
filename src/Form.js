@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './styles.css';
 
-function Modal({ open, onClose }) {
-  if (!open) return null;
+function Modal({ isOpen, onClose }) {
+  if (!isOpen) return null;
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <p>Please agree to receive emails from us before submitting the form.</p>
+        <p>
+          Thank you for submitting your information. Check your email for your
+          Twinflame Reading.
+        </p>
         <button onClick={onClose}>Close</button>
       </div>
     </div>
@@ -15,67 +19,72 @@ function Modal({ open, onClose }) {
 }
 
 function Form() {
-  const [agree, setAgree] = useState(false);
-  const [thickboxOpen, setThickboxOpen] = useState(false);
-  const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
+  const [email, setEmail] = useState('');
   const [birthdate, setBirthdate] = useState('');
+  const [agree, setAgree] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (agree) {
-      try {
-        await axios.post('/api/send-email', { email, firstName, birthdate });
-        // Handle success
-      } catch (error) {
-        // Handle error
-      }
-    } else {
-      setThickboxOpen(true);
+
+    if (!firstName || !email || !birthdate || !agree) {
+      alert('Please complete all fields and agree to the terms.');
+      return;
+    }
+
+    try {
+      await axios.post('/api/signup', {
+        firstName,
+        email,
+        birthdate,
+      });
+      setIsModalOpen(true);
+    } catch (error) {
+      alert('An error occurred. Please try again later.');
     }
   };
 
   return (
-    <>
+    <div className="container">
+      <h1>Divine Darling's Twinflame Reading</h1>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="firstName">First Name:</label>
-        <input
-          type="text"
-          id="firstName"
-          value={firstName}
-          onChange={(e) => setFirstName(e.target.value)}
-        />
-
-        <label htmlFor="birthdate">Birthdate:</label>
-        <input
-          type="date"
-          id="birthdate"
-          value={birthdate}
-          onChange={(e) => setBirthdate(e.target.value)}
-        />
-
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-
-        <label htmlFor="agree">
+        <label>
+          First Name
+          <input
+            type="text"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
+          />
+        </label>
+        <label>
+          Email
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </label>
+        <label>
+          Birthdate
+          <input
+            type="date"
+            value={birthdate}
+            onChange={(e) => setBirthdate(e.target.value)}
+          />
+        </label>
+        <label>
           <input
             type="checkbox"
-            id="agree"
             checked={agree}
-            onChange={(e) => setAgree(e.target.checked)}
+            onChange={() => setAgree(!agree)}
           />
-          I agree to receive emails from Divine Darling's Twinflame Reading.
+          I agree to the terms and conditions.
         </label>
-
         <button type="submit">Submit</button>
       </form>
-      <Modal open={thickboxOpen} onClose={() => setThickboxOpen(false)} />
-    </>
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+    </div>
   );
 }
 
