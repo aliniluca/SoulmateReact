@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Form.css';
+import './styles.css';
 
 const Form = () => {
   const [showForm, setShowForm] = useState(false);
