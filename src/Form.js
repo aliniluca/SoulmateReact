@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Form.css';
 
 const Form = () => {
   const [showForm, setShowForm] = useState(false);
@@ -7,16 +8,21 @@ const Form = () => {
     setShowForm(!showForm);
   };
 
+  const closeModal = () => {
+    setShowForm(false);
+  };
+
   return (
     <div className="form-container">
       <button className="cta-button" onClick={handleButtonClick}>
         Yes, I want my future soulmate sketch now!
       </button>
       {showForm && (
-        <div className="form">
-          <h2>Just answer a few simple questions so we can draw your sketch accurately...</h2>
-
-          <label htmlFor="interestedIn">Who are You Interested In?</label>
+        <div className="modal">
+          <div className="form">
+            <button className="close-modal" onClick={closeModal}>X</button>
+            <h2>Just answer a few simple questions so we can draw your sketch accurately...</h2>
+            { <label htmlFor="interestedIn">Who are You Interested In?</label>
           <select id="interestedIn">
             <option>I Like Men</option>
             <option>I Like Women</option>
@@ -54,6 +60,8 @@ const Form = () => {
           </div>
 
           <button type="submit" className="submit-button">Get Your Soulmate Drawing</button>
+        </div>}
+          </div>
         </div>
       )}
     </div>
