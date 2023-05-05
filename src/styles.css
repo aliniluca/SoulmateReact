@@ -60,6 +60,7 @@ button:hover {
 }
 
 /* Modal styles */
+/* Modal styles */
 .modal {
   position: fixed;
   top: 0;
@@ -76,8 +77,8 @@ button:hover {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  width: 80%;
-  max-width: 500px;
+  width: 40%; /* Reduced from 80% */
+  max-width: 250px; /* Reduced from 500px */
   position: relative;
 }
 
@@ -91,6 +92,7 @@ button:hover {
   cursor: pointer;
   color: #999;
 }
+
 
 /* Video container */
 .video-container {
