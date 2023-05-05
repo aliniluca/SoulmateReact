@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Form from './Form';
 import divineDarlingLogo from './divine-darling-logo.jpg'; // Import the logo image file
-
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="container">
