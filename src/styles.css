@@ -52,6 +52,8 @@ button {
   border: none;
   cursor: pointer;
   margin-top: 1rem;
+  display: block;
+  margin: 1rem auto;
   transition: background-color 0.3s;
 }
 
