@@ -81,15 +81,15 @@ function Form() {
         }
       );
 
-      const emailTemplateId = 'your_email_template_id';
+      const emailTemplateId = '0';
       const imageUrl = `https://yourserver.com/path/to/images/${randomImage}`;
 
       const emailData = {
         template_id: emailTemplateId,
         subject: 'Your Soulmate Sketch',
         to: formData.email,
-        from: 'youremail@example.com',
-        from_name: 'Your Name',
+        from: 'vanlica@gmail.com',
+        from_name: 'DivineDarling',
         content: {
           html: `<img src="${imageUrl}" alt="Soulmate Sketch" />`,
         },
