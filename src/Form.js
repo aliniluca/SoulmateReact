@@ -79,12 +79,17 @@ function Form() {
           <label htmlFor="email">What Email Should We Send Your Sketch To?</label>
           <input type="email" id="email" />
           <br />
-          <label>
-            <input type="checkbox" />
-            I agree to the terms of service & privacy policy and also agree to receive my sketch via the email address I provided and consent to receive other relevant content from Soulmate Sketch via our newsletter which I can opt-out at anytime.
-          </
-          </label>
-          <button type="submit">Get Your Soulmate Drawing</button>
+                <label>
+          <input type="checkbox" required />
+          <p>
+            I agree to the terms of service & privacy policy and also agree to
+            receive my sketch via the email address I provided and consent to
+            receive other relevant content from Soulmate Sketch via our
+            newsletter which I can opt-out at anytime.
+          </p>
+        </label>
+        <button type="submit">Get Your Soulmate Drawing</button>
+
         </form>
       </Modal>
     </div>
