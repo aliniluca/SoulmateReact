@@ -39,33 +39,37 @@ function App() {
     <img src="https://via.placeholder.com/300" alt="Image 4" />
   </div>
 
-  <Carousel className="faq-carousel">
-    <Carousel.Item>
-      <div className="faq-item">
-        <h3>Question 1</h3>
-        <p>Answer 1</p>
-      </div>
-    </Carousel.Item>
-    <Carousel.Item>
-      <div className="faq-item">
-        <h3>Question 2</h3>
-        <p>Answer 2</p>
-      </div>
-    </Carousel.Item>
-    <Carousel.Item>
-      <div className="faq-item">
-        <h3>Question 3</h3>
-        <p>Answer 3</p>
-      </div>
-    </Carousel.Item>
-    <Carousel.Item>
-      <div className="faq-item">
-        <h3>Question 4</h3>
-        <p>Answer 4</p>
-      </div>
-    </Carousel.Item>
-  </Carousel>
+<div class="faq-accordion">
+  <div class="faq-item">
+    <input type="checkbox" id="faq1" />
+    <label for="faq1"> How Fast Can I Get My Sketch and Reading?</label>
+    <div class="answer">
+      <p>Your high quality sketch and reading will be delivered to you via email within 24 hours. In some rare cases when demand is high, it could take up to 48 hours.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <input type="checkbox" id="faq2" />
+    <label for="faq2">What is All Included with My Sketch?</label>
+    <div class="answer">
+      <p> In addition to the sketch of your soulmate, you will receive a complete description of characteristics and qualities of this person that will help you connect when you are at the right time with this person.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <input type="checkbox" id="faq3" />
+    <label for="faq3">Will I Know My Soulmate?</label>
+    <div class="answer">
+      <p> Many people have found that their sketch resembles someone that is currently close in their life, their current significant other / partner, or someone they admire or have feelings for.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <input type="checkbox" id="faq4" />
+    <label for="faq4">What can I expect?</label>
+    <div class="answer">
+      <p> You can expect high quality work including a real sketch of the visions that I receive in my trance of connection with the infinite energy of the universe with a 100% satisfaction guarantee.</p>
+    </div>
+  </div>
 </div>
+
     </div>
   );
 }
