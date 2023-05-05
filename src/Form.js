@@ -10,8 +10,14 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
+    width: '50%', // Reduced from 100%
+    maxWidth: '400px', // Reduced from 800px
+    backgroundColor: 'white',
+    borderRadius: '5px',
+    padding: '20px',
   },
 };
+
 
 Modal.setAppElement('#root');
 
