@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Form from './Form';
-import divineDarlingLogo from './divine-darling-logo.png'; // Import the logo image file
+import divineDarlingLogo from './divine-darling-logo.jpg'; // Import the logo image file
 
 function App() {
   return (
