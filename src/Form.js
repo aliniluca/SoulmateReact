@@ -15,6 +15,7 @@ const customStyles = {
     backgroundColor: 'white',
     borderRadius: '5px',
     padding: '20px',
+    maxHeight : '80%'
   },
 };
 
