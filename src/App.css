@@ -129,3 +129,9 @@ h1 {
   max-height: 500px;
   padding: 1rem;
 }
+.disclaimer {
+  font-size: 0.8rem;
+  color: #444;
+  margin-top: 2rem;
+  text-align: center;
+}
