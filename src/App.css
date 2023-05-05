@@ -53,3 +53,38 @@ h1 {
   max-width: 150px;
   margin: 0 1rem;
 }
+/* General styles */
+/* ... */
+
+/* Image grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+}
+
+/* FAQ Carousel */
+.faq-carousel {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.faq-item {
+  padding: 1rem;
+  text-align: center;
+}
+
+.faq-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+}
