@@ -29,6 +29,42 @@ function App() {
         {/* Add logos of famous news sites and TV shows here */}
         {/* Example: <img src={newsSiteLogo} alt="News Site" /> */}
       </div>
+// Inside your App function
+<div className="container">
+  <div className="image-grid">
+    <img src="https://via.placeholder.com/300" alt="Image 1" />
+    <img src="https://via.placeholder.com/300" alt="Image 2" />
+    <img src="https://via.placeholder.com/300" alt="Image 3" />
+    <img src="https://via.placeholder.com/300" alt="Image 4" />
+  </div>
+
+  <Carousel className="faq-carousel">
+    <Carousel.Item>
+      <div className="faq-item">
+        <h3>Question 1</h3>
+        <p>Answer 1</p>
+      </div>
+    </Carousel.Item>
+    <Carousel.Item>
+      <div className="faq-item">
+        <h3>Question 2</h3>
+        <p>Answer 2</p>
+      </div>
+    </Carousel.Item>
+    <Carousel.Item>
+      <div className="faq-item">
+        <h3>Question 3</h3>
+        <p>Answer 3</p>
+      </div>
+    </Carousel.Item>
+    <Carousel.Item>
+      <div className="faq-item">
+        <h3>Question 4</h3>
+        <p>Answer 4</p>
+      </div>
+    </Carousel.Item>
+  </Carousel>
+</div>
     </div>
   );
 }
