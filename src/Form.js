@@ -10,12 +10,14 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    width: '50%', // Reduced from 100%
-    maxWidth: '400px', // Reduced from 800px
+    width: '50%',
+    maxWidth: '400px',
+    height: '80%', // Added height property
+    maxHeight: '600px', // Added maxHeight property
     backgroundColor: 'white',
     borderRadius: '5px',
     padding: '20px',
-    maxHeight : '80%'
+    overflowY: 'auto', // Added to enable scrolling if the content overflows
   },
 };
 
