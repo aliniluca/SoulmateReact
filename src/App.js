@@ -27,8 +27,8 @@ function App() {
       {/* As Seen On section */}
       <div className="as-seen-on">
         <h2>As Seen On</h2>
-        { <img src="./etsy-logo-68ADD687A5-seeklogo.com.png" alt="Etsy" />}
-        { <img src="./vecteezy_tiktok-logo-on-transparent-background_6057996.jpg" alt="Tiktok" />}
+        { <img src="https://seeklogo.com/images/E/etsy-logo-68ADD687A5-seeklogo.com.png" alt="Etsy" />}
+        { <img src="https://www.freepnglogos.com/uploads/tik-tok-logo-png/tik-tok-tiktok-logo-app-trend-1.png" alt="Tiktok" />}
       </div>
 
       {/* Image grid */}
