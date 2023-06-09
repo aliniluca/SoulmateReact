@@ -86,7 +86,7 @@ function Form() {
 
       const emailData = {
         template_id: emailTemplateId,
-        subject: 'Your Soulmate Sketch',
+        subject: 'Your Higher Self Reading & Sketch',
         to: formData.email,
         from: 'vanlica@gmail.com',
         from_name: 'DivineDarling',
@@ -111,7 +111,7 @@ function Form() {
   };
   return (
 <div>
-<button onClick={openModal}>Yes, I want my future soulmate sketch now!</button>
+<button onClick={openModal}>Yes, I want a Higher Self Reading Now!</button>
 <Modal
      isOpen={modalIsOpen}
      onRequestClose={closeModal}
@@ -167,7 +167,7 @@ receive other relevant content from Soulmate Sketch via our
 newsletter which I can opt-out at anytime.
 </p>
 </label>
-<button type="submit">Get Your Soulmate Drawing</button>
+<button type="submit">Get Your Higher Self Drawing</button>
 </form>
 </Modal>
 </div>
