@@ -15,7 +15,7 @@ function App() {
       <h1>Are you ready to get messages from your Higher Self?</h1>
       <div className="video-container">
         <iframe
-          src="https://player.vimeo.com/video/616281920"
+          src="https://v.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/Drawing_-_91883_qmlmjl.mp4"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
