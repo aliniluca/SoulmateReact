@@ -27,16 +27,16 @@ function App() {
       {/* As Seen On section */}
       <div className="as-seen-on">
         <h2>As Seen On</h2>
-        { <img src="https://via.placeholder.com/300" alt="Image 5" />}
-        { <img src="https://via.placeholder.com/300" alt="Image 6" />}
+        { <img src="./etsy-logo-68ADD687A5-seeklogo.com.png" alt="Etsy" />}
+        { <img src="./vecteezy_tiktok-logo-on-transparent-background_6057996.jpg" alt="Tiktok" />}
       </div>
 
       {/* Image grid */}
       <div className="image-grid">
-        <img src="https://via.placeholder.com/300" alt="Image 1" />
-        <img src="https://via.placeholder.com/300" alt="Image 2" />
-        <img src="https://via.placeholder.com/300" alt="Image 3" />
-        <img src="https://via.placeholder.com/300" alt="Image 4" />
+        <img src="https://i.etsystatic.com/23917073/r/il/2756f9/4782168692/il_fullxfull.4782168692_k2gl.jpg" alt="Image 1" />
+        <img src="https://i.etsystatic.com/23917073/r/il/c76de7/4830433601/il_fullxfull.4830433601_o3m4.jpg" alt="Image 2" />
+        <img src="https://i.etsystatic.com/23917073/r/il/8832fe/4782168702/il_fullxfull.4782168702_fxn6.jpg" alt="Image 3" />
+        <img src="https://i.etsystatic.com/23917073/r/il/acefea/4830433603/il_fullxfull.4830433603_qj3m.jpg" alt="Image 4" />
       </div>
 
       {/* FAQ accordion */}
