@@ -52,7 +52,8 @@ function App() {
           <input type="checkbox" id="faq2" />
           <label for="faq2">What is All Included with My Sketch?</label>
           <div class="answer">
-            <p> In addition to the sketch of your soulmate, you will receive a complete description of characteristics and qualities of this person that will help you connect when you are at the right time with this person.</p>
+            <p>Your Higher Self plays a pivotal role in your life and destiny, understanding your higher purpose, and working collaboratively for your ultimate good as you journey through life, evolving into a higher vibrational and spiritual being. With love and care, your higher self supports and assists you.
+Your higher self serves as the portal to the collective consciousness connecting you to the Source of creation. It possesses all the knowledge you'll ever need to navigate life. Your higher self can receive celestial messages from the Source and desires to share this wisdom with you. Whether you seek love, lucrative business ideas, specific spiritual practices, healing modalities, or anything else to help you live your best life, your higher self holds all the answers.</p>
           </div>
         </div>
         <div class="faq-item">
