@@ -12,7 +12,7 @@ function App() {
         alt="DivineDarling Logo"
         style={{ display: 'block', width: '100%', maxWidth: '250px', margin: '0 auto' }}
       />
-      <h1>Are You Ready to Finally Meet Your True Soulmate?</h1>
+      <h1>Are you ready to get messages from your Higher Self?</h1>
       <div className="video-container">
         <iframe
           src="https://player.vimeo.com/video/616281920"
@@ -43,7 +43,7 @@ function App() {
       <div class="faq-accordion">
         <div class="faq-item">
           <input type="checkbox" id="faq1" />
-          <label for="faq1"> How Fast Can I Get My Sketch and Reading?</label>
+          <label for="faq1"> How Fast is this service?</label>
           <div class="answer">
             <p>Your high quality sketch and reading will be delivered to you via email within 24 hours. In some rare cases when demand is high, it could take up to 48 hours.</p>
           </div>
@@ -57,16 +57,17 @@ function App() {
         </div>
         <div class="faq-item">
           <input type="checkbox" id="faq3" />
-          <label for="faq3">Will I Know My Soulmate?</label>
+          <label for="faq3">What is a Higher Self actually?</label>
           <div class="answer">
-            <p> Many people have found that their sketch resembles someone that is currently close in their life, their current significant other / partner, or someone they admire or have feelings for.</p>
+            <p>A Higher Self Drawing is a valuable asset, as visualizing your Higher Self creates a constant connection in your conscious mind, subconscious energies and frequencies, as well as in your daily life, meditation, sleep, and dreaming.
+With this Psychic Reading and Drawing, I will find out exactly what your Higher Self looks like, and I will make an in-depth connection and sense the most important life-changing messages and guidance that your Higher Self wants to share with you. </p>
           </div>
         </div>
         <div class="faq-item">
           <input type="checkbox" id="faq4" />
           <label for="faq4">What can I expect?</label>
           <div class="answer">
-            <p> You can expect high quality work including a real sketch of the visions that I receive in my trance of connection with the infinite energy of the universe with a 100% satisfaction guarantee.</p>
+            <p> How can we uncover our hidden strengths, secret talents, and treasures that live within us? More importantly, how do we align these gifts with our everyday lives to become the best version of ourselves? Fortunately, there is a way to uncover this valuable information within ourselves, and it has everything to do with the Higher Self.</p>
 </div>
 </div>
 </div>
