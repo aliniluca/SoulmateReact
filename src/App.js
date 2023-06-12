@@ -13,7 +13,7 @@ function App() {
     <h2>Yes, it's your Higher Self!</h2>
       <div className="video-container">
         <iframe
-          src="https://drive.google.com/file/d/1Aj4ZONY3U8DGY1I1l0BWxQ0ntq9sY3nr/preview"
+          src="https://drive.google.com/file/d/10pOW67i5f-C71V51u47ZyX1QmML28Ic1/preview"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
