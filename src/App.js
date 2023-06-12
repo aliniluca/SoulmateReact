@@ -7,16 +7,12 @@ import divineDarlingLogo from './divine-darling-logo.jpg'; // Import the logo im
 function App() {
   return (
     <div className="container">
-    <img
-       src={divineDarlingLogo}
-        alt="DivineDarling Logo"
-        style={{ display: 'block', width: '100%', maxWidth: '250px', margin: '0 auto' }}
-      />
+    
       <h1>Feeling stuck in the anxiety rat race, with no way out?</h1>
-      <h2>Someone is offering you a hand to break the chain. Yes, it's your Higher Self!</h2>
+      <h2>Someone is offering you a hand to break the chain. It's your Higher Self!</h2>
       <div className="video-container">
         <iframe
-          src="https://v.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/Drawing_-_91883_qmlmjl.mp4"
+          src="https://drive.google.com/file/d/1Aj4ZONY3U8DGY1I1l0BWxQ0ntq9sY3nr/preview"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
