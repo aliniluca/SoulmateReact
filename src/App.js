@@ -7,11 +7,11 @@ import divineDarlingLogo from './divine-darling-logo.jpg'; // Import the logo im
 function App() {
   return (
     <div className="container">
-    //  <img
-    //    src={divineDarlingLogo}
-    //    alt="DivineDarling Logo"
-     //   style={{ display: 'block', width: '100%', maxWidth: '250px', margin: '0 auto' }}
-     // />
+    <img
+       src={divineDarlingLogo}
+        alt="DivineDarling Logo"
+        style={{ display: 'block', width: '100%', maxWidth: '250px', margin: '0 auto' }}
+      />
       <h1>Feeling stuck in the anxiety rat race, with no way out?</h1>
       <h2>Someone is offering you a hand to break the chain. Yes, it's your Higher Self!</h2>
       <div className="video-container">
