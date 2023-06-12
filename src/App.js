@@ -9,7 +9,8 @@ function App() {
     <div className="container">
     
       <h1>Feeling stuck in the anxiety rat race, with no way out?</h1>
-      <h2>Someone is offering you a hand to break the chain. It's your Higher Self!</h2>
+      <h2>Someone is offering you a hand to break the chain. </h2>
+    <h2>Yes, it's your Higher Self!</h2>
       <div className="video-container">
         <iframe
           src="https://drive.google.com/file/d/1Aj4ZONY3U8DGY1I1l0BWxQ0ntq9sY3nr/preview"
